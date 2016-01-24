@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CCA57DE1C41AA4D006B600D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA57DD1C41AA4D006B600D /* main.m */; };
+		6CCA57E11C41AA4D006B600D /* TTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA57E01C41AA4D006B600D /* TTAppDelegate.m */; };
+		6CCA57E41C41AA4D006B600D /* TTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA57E31C41AA4D006B600D /* TTViewController.m */; };
+		6CCA57E71C41AA4D006B600D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CCA57E51C41AA4D006B600D /* Main.storyboard */; };
+		6CCA57E91C41AA4D006B600D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CCA57E81C41AA4D006B600D /* Assets.xcassets */; };
+		6CCA57EC1C41AA4D006B600D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CCA57EA1C41AA4D006B600D /* LaunchScreen.storyboard */; };
+		6CCA57F71C41AAD1006B600D /* TTCustomPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA57F41C41AAD1006B600D /* TTCustomPointAnnotation.m */; };
+		6CCA57F81C41AAD1006B600D /* TTCustomPinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA57F61C41AAD1006B600D /* TTCustomPinView.m */; };
+		6CCA58021C41ABA2006B600D /* TTPlane.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA57FB1C41ABA2006B600D /* TTPlane.m */; };
+		6CCA58031C41ABA2006B600D /* TTBezierPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA57FD1C41ABA2006B600D /* TTBezierPolyline.m */; };
+		6CCA58041C41ABA2006B600D /* TTFlightTrackMapOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA57FF1C41ABA2006B600D /* TTFlightTrackMapOverlay.m */; };
+		6CCA58051C41ABA2006B600D /* TTFlightTrackOverlayRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA58011C41ABA2006B600D /* TTFlightTrackOverlayRenderer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6CCA57D91C41AA4D006B600D /* TTAirplaneV2ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTAirplaneV2ObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CCA57DD1C41AA4D006B600D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CCA57DF1C41AA4D006B600D /* TTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTAppDelegate.h; sourceTree = "<group>"; };
+		6CCA57E01C41AA4D006B600D /* TTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTAppDelegate.m; sourceTree = "<group>"; };
+		6CCA57E21C41AA4D006B600D /* TTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTViewController.h; sourceTree = "<group>"; };
+		6CCA57E31C41AA4D006B600D /* TTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTViewController.m; sourceTree = "<group>"; };
+		6CCA57E61C41AA4D006B600D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CCA57E81C41AA4D006B600D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CCA57EB1C41AA4D006B600D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CCA57ED1C41AA4D006B600D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CCA57F31C41AAD1006B600D /* TTCustomPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCustomPointAnnotation.h; sourceTree = "<group>"; };
+		6CCA57F41C41AAD1006B600D /* TTCustomPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTCustomPointAnnotation.m; sourceTree = "<group>"; };
+		6CCA57F51C41AAD1006B600D /* TTCustomPinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCustomPinView.h; sourceTree = "<group>"; };
+		6CCA57F61C41AAD1006B600D /* TTCustomPinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTCustomPinView.m; sourceTree = "<group>"; };
+		6CCA57FA1C41ABA2006B600D /* TTPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTPlane.h; sourceTree = "<group>"; };
+		6CCA57FB1C41ABA2006B600D /* TTPlane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTPlane.m; sourceTree = "<group>"; };
+		6CCA57FC1C41ABA2006B600D /* TTBezierPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBezierPolyline.h; sourceTree = "<group>"; };
+		6CCA57FD1C41ABA2006B600D /* TTBezierPolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBezierPolyline.m; sourceTree = "<group>"; };
+		6CCA57FE1C41ABA2006B600D /* TTFlightTrackMapOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFlightTrackMapOverlay.h; sourceTree = "<group>"; };
+		6CCA57FF1C41ABA2006B600D /* TTFlightTrackMapOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFlightTrackMapOverlay.m; sourceTree = "<group>"; };
+		6CCA58001C41ABA2006B600D /* TTFlightTrackOverlayRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFlightTrackOverlayRenderer.h; sourceTree = "<group>"; };
+		6CCA58011C41ABA2006B600D /* TTFlightTrackOverlayRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFlightTrackOverlayRenderer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CCA57D61C41AA4D006B600D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CCA57D01C41AA4D006B600D = {
+			isa = PBXGroup;
+			children = (
+				6CCA57DB1C41AA4D006B600D /* TTAirplaneV2ObjC */,
+				6CCA57DA1C41AA4D006B600D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CCA57DA1C41AA4D006B600D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA57D91C41AA4D006B600D /* TTAirplaneV2ObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CCA57DB1C41AA4D006B600D /* TTAirplaneV2ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA57DF1C41AA4D006B600D /* TTAppDelegate.h */,
+				6CCA57E01C41AA4D006B600D /* TTAppDelegate.m */,
+				6CCA57E21C41AA4D006B600D /* TTViewController.h */,
+				6CCA57E31C41AA4D006B600D /* TTViewController.m */,
+				6CCA58061C41ABAA006B600D /* Overlays */,
+				6CCA57F91C41AB11006B600D /* Annotations */,
+				6CCA57E51C41AA4D006B600D /* Main.storyboard */,
+				6CCA57E81C41AA4D006B600D /* Assets.xcassets */,
+				6CCA57EA1C41AA4D006B600D /* LaunchScreen.storyboard */,
+				6CCA57ED1C41AA4D006B600D /* Info.plist */,
+				6CCA57DC1C41AA4D006B600D /* Supporting Files */,
+			);
+			path = TTAirplaneV2ObjC;
+			sourceTree = "<group>";
+		};
+		6CCA57DC1C41AA4D006B600D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA57DD1C41AA4D006B600D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CCA57F91C41AB11006B600D /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA57F31C41AAD1006B600D /* TTCustomPointAnnotation.h */,
+				6CCA57F41C41AAD1006B600D /* TTCustomPointAnnotation.m */,
+				6CCA57F51C41AAD1006B600D /* TTCustomPinView.h */,
+				6CCA57F61C41AAD1006B600D /* TTCustomPinView.m */,
+			);
+			name = Annotations;
+			sourceTree = "<group>";
+		};
+		6CCA58061C41ABAA006B600D /* Overlays */ = {
+			isa = PBXGroup;
+			children = (
+				6CCA57FA1C41ABA2006B600D /* TTPlane.h */,
+				6CCA57FB1C41ABA2006B600D /* TTPlane.m */,
+				6CCA57FC1C41ABA2006B600D /* TTBezierPolyline.h */,
+				6CCA57FD1C41ABA2006B600D /* TTBezierPolyline.m */,
+				6CCA57FE1C41ABA2006B600D /* TTFlightTrackMapOverlay.h */,
+				6CCA57FF1C41ABA2006B600D /* TTFlightTrackMapOverlay.m */,
+				6CCA58001C41ABA2006B600D /* TTFlightTrackOverlayRenderer.h */,
+				6CCA58011C41ABA2006B600D /* TTFlightTrackOverlayRenderer.m */,
+			);
+			name = Overlays;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CCA57D81C41AA4D006B600D /* TTAirplaneV2ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CCA57F01C41AA4D006B600D /* Build configuration list for PBXNativeTarget "TTAirplaneV2ObjC" */;
+			buildPhases = (
+				6CCA57D51C41AA4D006B600D /* Sources */,
+				6CCA57D61C41AA4D006B600D /* Frameworks */,
+				6CCA57D71C41AA4D006B600D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTAirplaneV2ObjC;
+			productName = TTAirplaneV2ObjC;
+			productReference = 6CCA57D91C41AA4D006B600D /* TTAirplaneV2ObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CCA57D11C41AA4D006B600D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					6CCA57D81C41AA4D006B600D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 6CCA57D41C41AA4D006B600D /* Build configuration list for PBXProject "TTAirplaneV2ObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CCA57D01C41AA4D006B600D;
+			productRefGroup = 6CCA57DA1C41AA4D006B600D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CCA57D81C41AA4D006B600D /* TTAirplaneV2ObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CCA57D71C41AA4D006B600D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CCA57EC1C41AA4D006B600D /* LaunchScreen.storyboard in Resources */,
+				6CCA57E91C41AA4D006B600D /* Assets.xcassets in Resources */,
+				6CCA57E71C41AA4D006B600D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CCA57D51C41AA4D006B600D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CCA58051C41ABA2006B600D /* TTFlightTrackOverlayRenderer.m in Sources */,
+				6CCA57F71C41AAD1006B600D /* TTCustomPointAnnotation.m in Sources */,
+				6CCA57E41C41AA4D006B600D /* TTViewController.m in Sources */,
+				6CCA57F81C41AAD1006B600D /* TTCustomPinView.m in Sources */,
+				6CCA57E11C41AA4D006B600D /* TTAppDelegate.m in Sources */,
+				6CCA58021C41ABA2006B600D /* TTPlane.m in Sources */,
+				6CCA57DE1C41AA4D006B600D /* main.m in Sources */,
+				6CCA58031C41ABA2006B600D /* TTBezierPolyline.m in Sources */,
+				6CCA58041C41ABA2006B600D /* TTFlightTrackMapOverlay.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6CCA57E51C41AA4D006B600D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CCA57E61C41AA4D006B600D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CCA57EA1C41AA4D006B600D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CCA57EB1C41AA4D006B600D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CCA57EE1C41AA4D006B600D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CCA57EF1C41AA4D006B600D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CCA57F11C41AA4D006B600D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTAirplaneV2ObjC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ok.TTAirplaneV2ObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6CCA57F21C41AA4D006B600D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTAirplaneV2ObjC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ok.TTAirplaneV2ObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CCA57D41C41AA4D006B600D /* Build configuration list for PBXProject "TTAirplaneV2ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CCA57EE1C41AA4D006B600D /* Debug */,
+				6CCA57EF1C41AA4D006B600D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CCA57F01C41AA4D006B600D /* Build configuration list for PBXNativeTarget "TTAirplaneV2ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CCA57F11C41AA4D006B600D /* Debug */,
+				6CCA57F21C41AA4D006B600D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CCA57D11C41AA4D006B600D /* Project object */;
+}
