@@ -318,7 +318,7 @@
 				INFOPLIST_FILE = TTAirplaneV2ObjC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ok.TTAirplaneV2ObjC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.infobip.mobilemessaging.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -330,7 +330,7 @@
 				INFOPLIST_FILE = TTAirplaneV2ObjC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ok.TTAirplaneV2ObjC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.infobip.mobilemessaging.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
